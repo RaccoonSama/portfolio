@@ -1,0 +1,38 @@
+@media only screen 
+  and (min-device-width: 768px) 
+ {
+
+#img-header {
+ display: block;
+}
+
+#burger {
+    display: none;
+}
+
+
+#list-header-id{
+  width: 80%;
+  display: flex;
+  position: inherit;
+  flex-direction: row;
+  justify-content: center;
+  border-radius: 25px;
+  left: 0;
+  li:not(:nth-last-of-type(3)) {
+      margin-left: 15%;
+  }
+
+}
+}
+
+
+@media only screen 
+  and (max-device-width: 650px) 
+ {
+#img-header {
+ //display: none;
+ width: 200px;
+ height: 200px;
+}
+ }
