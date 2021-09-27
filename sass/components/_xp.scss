@@ -1,0 +1,114 @@
+
+
+.xp {
+    h2 {
+        border-bottom: 5px solid $website-red;
+        text-align: center;
+        width: 80%;
+        margin: 0 auto;
+        font-size:  clamp(32px, 3em, 4rem);
+    }
+}
+
+
+.job-wrapper{
+  
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    div {
+        margin-bottom: 20px;
+    }
+    .job-desc {
+        font-weight: bold;
+        font-size: clamp(25px, 1em, 2rem);
+        text-align: center;
+    }
+    
+    
+    .title, .link{
+        font-size: clamp(32px, 2em, 3rem);
+        color: $website-red;
+
+    }
+    .link a, a:visited{
+       text-decoration: none;
+       color: $website-red;
+       font-weight: bold;
+     
+    }
+    .link {   
+        :hover, :focus {
+        color: rgb(255, 21, 60);
+        
+    }}
+
+ 
+ 
+    .glide{
+        .glide__track {
+            border-radius: 20px;
+            border: 5px solid $website-red;
+           background-color: $website-red ;
+          ul {
+            margin: 0;
+          }
+           li {
+               display: flex;
+               justify-content: center;
+               
+           }
+        }
+       .glide__slide img{
+           border-radius: 20px ;
+            width: 100%;
+        }
+        .glide__bullets{
+           
+            display: flex;
+            justify-content: center;
+            height: 25px;
+        }
+        .glide__bullet {
+            outline: none;
+            margin-left:3% ;
+            border: 3px solid $website-red;
+            border-radius: 20px;
+            width: 25px;
+            height: 100%;
+            :focus, :active {
+                margin-left:3% ;
+                border: 3px solid $website-red;
+                border-radius: 20px;
+                width: 25px;
+                height: 100%;
+            }
+            
+        }
+        .glide__bullet--active {
+            background-color:$website-red ;
+         }
+    }
+    
+
+ 
+.wrapper-test {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.img-wrapper {
+    border-radius: 20px;
+    width: 100%;
+    border: 5px solid $website-red;
+}
+
+
+
+}

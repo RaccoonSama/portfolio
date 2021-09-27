@@ -1,0 +1,39 @@
+
+$div: 3;
+
+@for $i from 1 through 4{
+    $ajustement: 0.5;
+    $delay:  $i*$ajustement;
+
+
+    .xpdiv-#{$i} {
+        animation: slide-right 1s forwards ;
+        animation-delay: #{$delay}s ;
+    }
+}
+
+@keyframes slide-right {
+    0%{transform: translateX(-100vw);}
+    100%{transform: translateX(0);}
+}
+
+.header-anim-in {
+    animation: anim-header 0.5s forwards;
+  
+}
+.header-anime-out {
+  animation: anim-header-out 0.5s forwards ; 
+}
+
+@keyframes anim-header {
+0%{transform: translateX(100vw);}
+100%{}
+}
+@keyframes anim-header-out {
+    0%{}
+    100%{transform: translateX(100vw);}
+}
+
+
+
+

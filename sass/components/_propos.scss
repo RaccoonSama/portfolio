@@ -1,0 +1,9 @@
+.a-propos{
+    margin: 0 auto;
+    text-align: center;
+    width: 80%;
+    p, h2{
+        font-size: clamp(32px, 2em, 3rem);
+    }
+}
+
