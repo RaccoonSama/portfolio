@@ -1,7 +1,7 @@
 
 $div: 3;
 
-@for $i from 1 through 3{
+@for $i from 1 through 4{
     $ajustement: 0.5;
     $delay:  $i*$ajustement;
 
