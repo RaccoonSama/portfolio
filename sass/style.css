@@ -18,6 +18,11 @@
   animation-delay: 2s;
 }
 
+.xpdiv-5 {
+  animation: slide-right 1s forwards;
+  animation-delay: 2.5s;
+}
+
 @keyframes slide-right {
   0% {
     transform: translateX(-100vw);
