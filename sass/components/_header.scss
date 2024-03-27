@@ -9,12 +9,14 @@ header {
     img {
         width: 300px;
         height: 300px;
-        clip-path: circle(50% at 50% 50%);
+        border-radius: 50%;
         margin-top: -55vh;
+        box-shadow: rgba(0, 0, 0, 0.35) 3.95px 3.95px 4.6px;
     }
 }
 
 .grid-container {
+    position: relative;
     margin: 0;
     padding: 0;
   display: flex;
@@ -38,6 +40,7 @@ outline: none;
 #en:hover, #en:focus, #fr:hover, #fr:focus{
     background-color: $website-red;
     color: white;
+    cursor: pointer;
 }
 
 
@@ -46,6 +49,7 @@ outline: none;
     height: 20vh;
     width: 100%;
     background-color: $website-red;
+    box-shadow: rgba(0, 0, 0, 0.35) 3.95px 3.95px 4.6px;
 }
 
 .bg-header2 {
@@ -58,6 +62,9 @@ outline: none;
     flex-direction: column;
     justify-content: flex-end;
 }
+.list-header {
+    box-shadow: rgba(0, 0, 0, 0.35) 3.95px 3.95px 4.6px;
+}
 .list-header, .lang-header {
    
     list-style: none;
@@ -65,8 +72,7 @@ outline: none;
     padding: 5px;
 }
 .lang-header {
-    width: 80%;
-    border-bottom: 5px solid $website-red;
+    width: 50%;
     margin: 0 auto;
     display: flex;
     flex-direction: row;
@@ -169,13 +175,17 @@ outline: none;
 }
 
 body {
-    
     font-family: 'PT Sans', sans-serif;
-    // opacity: 0;
-    // transition: 1.5s ease;
+    overflow-x: hidden;
 }
 
-// .intro-fade {
-//     opacity: 1;
-// }
+.intro-fade {
+    opacity: 1;
+}
+
+.vertical_seperator {
+    height: 55px;
+    border-left: 5px solid $website-red;
+    width: 1x;
+}
 

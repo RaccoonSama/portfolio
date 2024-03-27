@@ -13,6 +13,7 @@
         justify-content: inherit;
         align-items: inherit;
         padding:15px;
+        box-shadow: rgba(0, 0, 0, 0.35) 3.95px 3.95px 4.6px;
         a {
             text-align: center;
             width: 100%;
@@ -37,7 +38,6 @@
 }
 h1 {
     margin: 0 auto;
-    border-bottom: 5px solid $website-red;
     text-align: center;
     font-size:  clamp(32px, 3em, 5rem);
     width: 80%;
@@ -64,4 +64,11 @@ h1 {
         border-radius: 20px;
         background-color: $website-red;
         color: white;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }

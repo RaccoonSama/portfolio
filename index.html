@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./sass/style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="stylesheet" href="sass/glide.core.min.css">
     <link rel="stylesheet" href="sass/glide.theme.min.css">
@@ -14,6 +14,21 @@
 </head>
 
 <body class="grid-container" >
+    <div class="lineBg">
+        <div class="line" id="line1"></div>
+        <div class="line" id="line2"></div>
+        <div class="line" id="line3"></div>
+        <div class="line" id="line4"></div>
+        <div class="line" id="line5"></div>
+        <div class="line" id="line6"></div>
+        <div class="line" id="line7"></div>
+        <div class="line" id="line8"></div>
+        <div class="line" id="line9"></div>
+        <div class="line" id="line10"></div>
+        <div class="line" id="line11"></div>
+        <div class="line" id="line12"></div>
+        <div class="line" id="line13"></div>
+    </div>
     <header>
         <div class="bg-header1"></div>
         <div class="bg-header2">
@@ -35,9 +50,9 @@
                 </div>
             </div>
             <ul class="list-header" id="list-header-id">
-                <li class=".li-anim" ><a href="#propos"id="header-prp">à propos</a></li>
-                <li class=".li-anim"><a href="#exp" id="header-xp">expérience</a></li>
-                <li class=".li-anim"><a href="#coord" id="header-ctc">me contacter</a></li>
+                <li class=".li-anim" ><a href="#propos"id="header-prp">À propos</a></li>
+                <li class=".li-anim"><a href="#exp" id="header-xp">Expérience</a></li>
+                <li class=".li-anim"><a href="#coord" id="header-ctc">Me contacter</a></li>
             </ul>
             <ul class="lang-header">
                 <li>
@@ -58,12 +73,14 @@
 
     </section>
     <section id="exp" class="xp">
+        <div class="vertical_seperator"></div>
         <h2>Réalisations</h2>
+        <div class="vertical_seperator"></div>
         <div class="job-wrapper">
             <div class="title">Glitchtale Wiki</div>
             <div class="job-desc">php, css, js, media wiki</div>
-             <div class="job-desc">Wiki d'une série animée sur youtube, création de template et modification d'exentions (équipe)</div>
-            <div class="link"><a href="https://glitchtale.com/wiki/index.php/Main_Page" class="site-link">Visitez le site</a></div>
+             <div class="job-desc" id="GTdesc">Wiki d'une série animée sur youtube, création de template et modification d'exentions (équipe)</div>
+            <div class="link"><a href="https://web.archive.org/web/20211022193009/https://glitchtale.com/wiki/index.php/Main_Page" class="site-link" target="_blank">Visitez le site</a></div>
 
             <div class="glide">
                 <div data-glide-el="track" class="glide__track">
@@ -83,30 +100,30 @@
 
 
 
-
+        <div class="vertical_seperator"></div>
         <div class="job-wrapper">
             <div class="title">Prototype react</div>
             <div class="job-desc">React.js, Css, Js, firebase, node-modules</div>
-            <div class="job-desc">Prototype React, test d'implémentation de base de donnée avec firebase (seule)</div>
-            <div class="link"><a href="https://github.com/RaccoBonSama/signet" class="site-link">Visitez le site</a></div>
+            <div class="job-desc" id="reactSchool">Prototype React, test d'implémentation de base de donnée avec firebase (seule)</div>
+            <div class="link"><a href="https://github.com/RaccoBonSama/signet" class="site-link" target="_blank">Visitez le site</a></div>
             <div class="wrapper-test">
                 <div class="img-wrapper glide__slides"><img class="glide__slide img-react"src="media/react-1.png" alt="react-app"></div>
             </div>
         </div>
 
-
+        <div class="vertical_seperator"></div>
    <div class="job-wrapper">
-            <div class="title">Page d'acceuil Wordpress</div>
-            <div class="job-desc">wordpress php, scss, js, exportation extansions</div>
-            <div class="job-desc">design de la page d'acceuil wp, la page est statique, repo git hub publique (seule)</div>
-            <div class="link"><a href="https://github.com/RaccoonSama/TP1" class="site-link">Visitez le site</a></div>
+            <div class="title" id="bakeryTitle">Site d'Audrey Anne Patisserie</div>
+            <div class="job-desc">html, css, js, </div>
+            <div class="job-desc" id="bakerySite">Design et incorporation de template dans la platforme odoo pour le site d'Audrey Anne patisserie</div>
+            <div class="link"><a href="https://audreyannepatisserie.odoo.com/" class="site-link" target="_blank">Visitez le site</a></div>
 
             <div class="glide glide-1">
                 <div data-glide-el="track" class="glide__track">
                     <ul class="glide__slides">
-                        <li class="glide__slide"> <img src="media/wp-1.png" alt="word press"></li>
-                        <li class="glide__slide"> <img src="media/wp-2.png" alt="word press"></li>
-                        <li class="glide__slide"> <img src="media/wp-3.png" alt="word press"></li>
+                        <li class="glide__slide"> <img src="media/aap1.png" alt="word press"></li>
+                        <li class="glide__slide"> <img src="media/aap2.png" alt="word press"></li>
+                        <li class="glide__slide"> <img src="media/aap3.png" alt="word press"></li>
                     </ul>
                 </div>
                 <div class="glide__bullets" data-glide-el="controls[nav]">
@@ -116,12 +133,12 @@
                 </div>
             </div>
         </div>
-
+        <div class="vertical_seperator"></div>
         <div class="job-wrapper">
-            <div class="title">Page d'acceuil faite maison</div>
+            <div class="title" id="funHtmlTitle">Page d'acceuil faite maison</div>
             <div class="job-desc">html, scss, js</div>
-            <div class="job-desc">test de design de page d'accueil ainsi que test de js pour changer de style (seule)</div>
-            <div class="link"><a href="https://github.com/RaccoonSama/projetPersoWeb" class="site-link">Visitez le site</a></div>
+            <div class="job-desc" id="funHtmlDesc">test de design de page d'accueil ainsi que test de js pour changer de style (seule)</div>
+            <div class="link"><a href="https://github.com/RaccoonSama/projetPersoWeb" class="site-link" target="_blank">Visitez le site</a></div>
 
             <div class="glide glide-2">
                 <div data-glide-el="track" class="glide__track">
@@ -137,23 +154,23 @@
             </div>
         </div>
 
-
+        <div class="vertical_seperator"></div>
         <div class="job-wrapper">
-            <div class="title">Kirby css</div>
+            <div class="title" id="funCssTitle">Kirby css</div>
             <div class="job-desc">html, scss</div>
-            <div class="job-desc">Kirby fait en css, petit test personnel, projet en développement (seule)</div>
-            <div class="link"><a href="https://raccoonsama.github.io/kirby-css/" class="site-link">Visitez le site</a></div>
+            <div class="job-desc" id="funCssDesc">Kirby fait en css, petit test personnel, projet en développement (seule)</div>
+            <div class="link"><a href="https://raccoonsama.github.io/kirby-css/" class="site-link" target="_blank">Visitez le site</a></div>
             <div class="wrapper-test">
                 <div class="img-wrapper glide__slides"><img class="glide__slide img-react"src="media/kirby.png" alt="kirby css"></div>
             </div>
         </div>
-
+        <div class="vertical_seperator"></div>
         <div class="job-wrapper">
-            <div class="title">GameJam Valleyfield</div>
+            <div class="title" id="gameDevTitle">Game dev !</div>
             <div class="job-desc">unity C#</div>
-            <div class="job-desc">Compétition de création de jeux vidéo en équipe ! le thème était la révolution - programmation de la pluspart du jeu par moi (équipe)</div>
-            <div class="link"><a href="https://github.com/RaccoonSama/gameJam-Valeyfield/tree/main" class="site-link">Visitez le site</a></div>
-
+            <div class="job-desc" id="gameDevDesc">Compétition de création de jeux vidéo en équipe ! le thème était la révolution - programmation de la pluspart du jeu par moi (équipe)</div>
+            <div class="link"><a href="https://github.com/RaccoonSama/gameJam-Valeyfield/tree/main" class="site-link" target="_blank">Visitez le site</a></div>
+            <div class="link"><a href="https://youtu.be/yKVZVlkLh98"  id="site-link-extra" target="_blank">Voir autre projet de jeu</a></div>
             <div class="glide glide-3">
                 <div data-glide-el="track" class="glide__track">
                     <ul class="glide__slides">
@@ -172,7 +189,9 @@
 
     </section>
     <section id="coord" class="contact">
+        <div class="vertical_seperator"></div>
         <h1>Me contacter</h1> 
+        <div class="vertical_seperator"></div>
         <div class="button-center"><button id="hide-info">voir les informations</button></div>
 <div class="info-wrap">
     
@@ -186,7 +205,7 @@
                         d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2zm13 2.383l-4.758 2.855L15 11.114v-5.73zm-.034 6.878L9.271 8.82 8 9.583 6.728 8.82l-5.694 3.44A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.739zM1 11.114l4.758-2.876L1 5.383v5.73z" />
                 </svg>luna.gagnon.l@gmail.com</a></div>
     
-            <div class="resume"><a href="resume.pdf" download ><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
+            <div class="resume"><a href="media/resume.pdf" download ><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
                     class="bi bi-journals" viewBox="0 0 16 16">
                     <path
                         d="M5 0h8a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2 2 2 0 0 1-2 2H3a2 2 0 0 1-2-2h1a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V4a1 1 0 0 0-1-1H3a1 1 0 0 0-1 1H1a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v9a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H5a1 1 0 0 0-1 1H3a2 2 0 0 1 2-2z" />

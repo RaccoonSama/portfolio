@@ -1,0 +1,80 @@
+.lineBg {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -99;
+    overflow: hidden;
+    .line {
+        width: 3500px;
+        height: 2px;
+        box-shadow: rgba(0, 0, 0, 0.35) 3.95px 3.95px 4.6px;
+        border-bottom:3px solid $website-red;
+        position: absolute;
+       
+    }
+    #line1 {
+        transform: rotate(45deg);
+        top: 250px;
+        left: -800px;
+    }
+    #line2 {
+        transform: rotate(-45deg);
+        top: 1500px;
+        left: 175px;
+    }
+    #line3 {
+        transform: rotate(-45deg);
+        top: 250px;
+        left: -800px;
+    }
+    #line4 {
+        transform: rotate(45deg);
+        top: 2200px;
+        left: -750px ;
+    }
+    #line5 {
+        transform: rotate(65deg);
+        top: 7200px;
+        left: -450px ;
+    }
+    #line6 {
+        transform: rotate(65deg);
+        top: 6200px;
+        left: -750px ;
+    }
+    #line7 {
+        transform: rotate(135deg);
+        top: 3200px;
+        left: -750px ;
+    }
+    #line8 {
+        transform: rotate(90deg);
+        top: 4200px;
+        left: -750px ;
+    }
+    #line9 {
+        transform: rotate(-65deg);
+        top: 9200px;
+        left: -450px ;
+    }
+    #line10 {
+        transform: rotate(-45deg);
+        top: 3200px;
+        left: -750px ;
+    }
+    #line11 {
+        transform: rotate(37deg);
+        top: 5200px;
+        left: -450px ;
+    }
+    #line12 {
+        transform: rotate(65deg);
+        top: 8600px;
+        left: -1050px ;
+    }
+    #line5 {
+        transform: rotate(45deg);
+        top: 6900px;
+        left: -750px ;
+    }
+}

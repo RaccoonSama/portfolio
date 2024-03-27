@@ -1,8 +1,11 @@
 
 
 .xp {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     h2 {
-        border-bottom: 5px solid $website-red;
         text-align: center;
         width: 80%;
         margin: 0 auto;
@@ -12,13 +15,15 @@
 
 
 .job-wrapper{
-  
+    border:5px solid $website-red;
+    border-radius: 20px;
     width: 80%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     margin: 0 auto;
+    box-shadow: rgba(0, 0, 0, 0.35) 3.95px 3.95px 4.6px;
     div {
         margin-bottom: 20px;
     }
@@ -49,22 +54,20 @@
  
  
     .glide{
-        .glide__track {
-            border-radius: 20px;
-            border: 5px solid $website-red;
-           background-color: $website-red ;
+        .glide__track {  
+           background-color: $website-red-dark  ;
           ul {
             margin: 0;
           }
            li {
                display: flex;
                justify-content: center;
-               
            }
         }
        .glide__slide img{
-           border-radius: 20px ;
             width: 100%;
+            border-top: 5px solid $website-red;
+            border-bottom: 5px solid $website-red;
         }
         .glide__bullets{
            
@@ -104,9 +107,7 @@
 }
 
 .img-wrapper {
-    border-radius: 20px;
     width: 100%;
-    border: 5px solid $website-red;
 }
 
 
